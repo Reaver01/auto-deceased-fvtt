@@ -10,5 +10,5 @@
   "systems": ["dnd5e"],
   "url": "https://github.com/Reaver01/auto-deceased-fvtt/tree/master/auto-deceased",
   "manifest": "https://raw.githubusercontent.com/Reaver01/auto-deceased-fvtt/master/auto-deceased/module.json",
-  "download": "https://github.com/Reaver01/auto-deceased-fvtt/tree/master/auto-deceased.zip"
+  "download": "https://raw.githubusercontent.com/Reaver01/auto-deceased-fvtt/master/auto-deceased.zip"
 }
