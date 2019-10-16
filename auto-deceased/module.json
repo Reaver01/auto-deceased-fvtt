@@ -2,7 +2,7 @@
   "name": "auto-deceased",
   "title": "Auto Deceased",
   "description": "Marks token in the combat tracker as deceased when HP hits zero",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Reaver#4634",
   "scripts": ["auto-deceased.js"],
   "styles": [],
