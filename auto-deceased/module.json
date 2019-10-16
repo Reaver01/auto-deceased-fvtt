@@ -2,7 +2,7 @@
   "name": "auto-deceased",
   "title": "Auto Deceased",
   "description": "Marks token in the combat tracker as deceased when HP hits zero",
-  "version": "0.2",
+  "version": "0.3",
   "author": "Reaver#4634",
   "scripts": ["auto-deceased.js"],
   "styles": [],
@@ -10,5 +10,5 @@
   "systems": ["dnd5e"],
   "url": "https://github.com/Reaver01/auto-deceased-fvtt/tree/master/auto-deceased",
   "manifest": "https://raw.githubusercontent.com/Reaver01/auto-deceased-fvtt/master/auto-deceased/module.json",
-  "download": "https://raw.githubusercontent.com/Reaver01/auto-deceased-fvtt/master/auto-deceased.zip"
+  "download": "https://github.com/Reaver01/auto-deceased-fvtt/tree/master/auto-deceased.zip"
 }

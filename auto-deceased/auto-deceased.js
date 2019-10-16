@@ -7,9 +7,9 @@ Hooks.on('updateToken', tokenInfo => {
     tokenHp = tokenInfo.actor.data.data.attributes.hp.value;
     if (tokenHp <= 0) {
         activeCombat = game.combats.entities.filter(combat => combat.data.active)[0];
-        combatToken = activeCombat.data.combatants.filter(token => token.id == tokenInfo.data.id)[0];
+        combatToken = activeCombat.data.combatants.filter(token => token.tokenId == tokenInfo.data.id)[0];
         if (!combatToken.defeated) {
-            game.combat.updateCombatant({id: tokenInfo.data.id, defeated: true});
+            game.combat.updateCombatant({id: combatToken.id, defeated: true});
         }
     }
 });
